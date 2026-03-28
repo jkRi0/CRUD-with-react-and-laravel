@@ -6,6 +6,11 @@ npx create-react-app my-app
 # Go into folder
 cd my-app
 
+
+npm installnpm install axios
+
+
+
 # Start app
 npm start
 
