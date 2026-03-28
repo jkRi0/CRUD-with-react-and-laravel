@@ -25,3 +25,10 @@ php artisan serve
 
 
 
+#to enable ps1/node from running within the code editor terminal
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+#or
+Set-ExecutionPolicy RemoteSigned
+
+
