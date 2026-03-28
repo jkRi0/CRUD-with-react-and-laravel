@@ -1,3 +1,5 @@
+REACT
+
 # Create app
 npx create-react-app my-app
 
@@ -12,13 +14,18 @@ npm start
 
 
 
-
+LARAVEL
 
 # Create new Laravel project
 composer create-project laravel/laravel my-app
 
 # Go into project
 cd my-app
+
+php artisan migrate
+php artisan make:model Message -m
+php artisan make:controller MessageController --api
+
 
 # Start development server
 php artisan serve
