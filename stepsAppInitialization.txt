@@ -1,0 +1,27 @@
+# Create app
+npx create-react-app my-app
+
+# Go into folder
+cd my-app
+
+# Start app
+npm start
+
+
+
+
+
+
+
+
+# Create new Laravel project
+composer create-project laravel/laravel my-app
+
+# Go into project
+cd my-app
+
+# Start development server
+php artisan serve
+
+
+
